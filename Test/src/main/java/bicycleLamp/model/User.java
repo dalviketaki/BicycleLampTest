@@ -26,9 +26,6 @@ public class User {
   private String password;
 
   @ElementCollection(fetch = FetchType.EAGER)
-  List<Role> roles;
-  
-  @ElementCollection(fetch = FetchType.EAGER)
   Bicycle bicycle;
   
 
@@ -70,14 +67,6 @@ public Integer getId() {
 
   public void setPassword(String password) {
     this.password = password;
-  }
-
-  public List<Role> getRoles() {
-    return roles;
-  }
-
-  public void setRoles(List<Role> roles) {
-    this.roles = roles;
   }
 
 }
