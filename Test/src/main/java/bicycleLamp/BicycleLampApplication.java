@@ -4,6 +4,7 @@ package bicycleLamp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class BicycleLampApplication {
 
 	public static void main(String[] args) {

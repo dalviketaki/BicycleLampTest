@@ -6,7 +6,7 @@
 	<artifactId>Test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bicycle-lamp-project</name>
-	<description>Spring Boot 2, Hibernate, JPA and H2 - Example Project</description>
+	<description>bicycle lamp poject</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,6 +16,22 @@
 	</parent>
 
 	<dependencies>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.10</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>io.swagger</groupId>
 			<artifactId>swagger-annotations</artifactId>
